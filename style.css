@@ -1,0 +1,127 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.container-navbar{
+    background-color: gray;
+    width: 100%;
+    height: 10vh;
+}
+
+
+.ul-navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar{
+    font-size: 20px;
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+
+.p-navbar{
+    font-size: 30px;
+    color: aliceblue;
+    font-style: italic;
+}
+
+.li-navbar:hover{
+    background-color: aqua;
+    transition: .3s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
+}
+
+.a-navbar{
+    color: white;
+    text-decoration: none;
+}
+
+.container-content{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container-content-contact{
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-content{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    width: 420px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.img-content{
+    width: 30%;
+    height: 30%;
+}
+
+.container-footer{
+    background-color: gray;
+    width: 100%;
+    height: 10vh;
+}
+
+.h1-footer{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer-about{
+    color: blue;
+    font-size: 30px;
+    text-align: left;
+}
+
+.box-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-primary{
+    background-color: blue;
+    color: brown;
+    font-size: large;
+    font-weight: 700;
+    padding: 8px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin: 20px 0;
+}
